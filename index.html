@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Overseas Consultancy</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href='/style.css' rel='stylesheet'>
+
+  <link href="https://cdn.jsdelivr.net/npm/flowbite@1.6.5/dist/flowbite.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50 text-gray-800"> 
+  <header class="sticky top-0 z-50 bg-gray-900 shadow-md">
+    <nav class="container mx-auto flex items-center justify-between px-6 py-4">
+      <!-- Logo -->
+      <div class="text-2xl font-extrabold text-white">
+        <a href="#" class="hover:text-blue-500">MyLogo</a>
+      </div>
+  
+      <!-- Navbar Items -->
+      <div class="hidden md:flex items-center space-x-6">
+        <a href="#" class="text-gray-300 hover:text-blue-500 transition-colors">Home</a>
+        <a href="#about" class="text-gray-300 hover:text-blue-500 transition-colors">About Us</a>
+        <a href="#services" class="text-gray-300 hover:text-blue-500 transition-colors">Services</a>
+        <a href="#destinations" class="text-gray-300 hover:text-blue-500 transition-colors">Destinations</a>
+        <a href="#testimonials" class="text-gray-300 hover:text-blue-500 transition-colors">Testimonials</a>
+        <a href="#contact" class="text-gray-300 hover:text-blue-500 transition-colors">Contact Us</a>
+      </div>
+  
+      <!-- Action Button -->
+      <div class="hidden md:block">
+        <a href="#cta" class="bg-blue-500 text-white font-medium px-5 py-2 rounded-full shadow-lg hover:bg-blue-600 transition-transform transform hover:scale-105">
+          Get Started
+        </a>
+      </div>
+  
+      <!-- Mobile Menu Icon -->
+      <div class="md:hidden flex items-center">
+        <button id="menu-toggle" class="focus:outline-none">
+          <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7"></path>
+          </svg>
+        </button>
+      </div>
+    </nav>
+  
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-gray-800 text-white">
+      <div class="px-6 py-4 space-y-4">
+        <a href="#" class="block hover:text-blue-500">Home</a>
+        <a href="#about" class="block hover:text-blue-500">About Us</a>
+        <a href="#services" class="block hover:text-blue-500">Services</a>
+        <a href="#destinations" class="block hover:text-blue-500">Destinations</a>
+        <a href="#testimonials" class="block hover:text-blue-500">Testimonials</a>
+        <a href="#contact" class="block hover:text-blue-500">Contact Us</a>
+      </div>
+    </div>
+  </header>
+  
+  <!-- Hero Section -->
+  <section class="relative bg-cover bg-center h-[90vh] flex items-center justify-center text-white" style="background-image: url('hero.png');">
+    <!-- Overlay -->
+    <div class="absolute inset-0 bg-gradient-to-b from-black/60 to-black/30"></div>
+  
+    <!-- Content -->
+    <div class="relative z-10 max-w-4xl text-center px-6 md:px-12">
+      <h1 class="text-5xl md:text-6xl font-extrabold leading-tight mb-6">
+        Your Journey Abroad <span class="text-blue-400">Starts Here</span>!
+      </h1>
+      <p class="text-lg md:text-xl mb-8 text-gray-200">
+        Seamless Overseas Education and Immigration Solutions Tailored for You.
+      </p>
+      <div class="flex flex-col sm:flex-row sm:justify-center gap-4">
+        <a href="#get-started" class="bg-blue-500 hover:bg-blue-600 text-white px-8 py-4 rounded-full shadow-lg transition-transform transform hover:scale-105">
+          Get Started
+        </a>
+        <a href="#services" class="bg-gray-200 text-gray-800 hover:bg-gray-300 px-8 py-4 rounded-full shadow-lg transition-transform transform hover:scale-105">
+          Explore Services
+        </a>
+      </div>
+    </div>
+  </section>
+  
+  <!-- About Us -->
+  
+ 
+<section id="about" class="py-16 bg-gray-50">
+  <div class="container mx-auto px-6 md:px-12 lg:flex lg:items-center lg:gap-12">
+    <!-- Text Content -->
+    <div class="lg:w-1/2 text-center lg:text-left">
+      <h2 class="text-4xl font-extrabold text-gray-800 mb-6">
+        About <span class="text-blue-500">Us</span>
+      </h2>
+      <p class="text-lg text-gray-600 leading-relaxed mb-8">
+        We are a leading overseas consultancy dedicated to helping students and professionals achieve their dreams of studying and working abroad. With years of experience and a high success rate, we provide personalized guidance tailored to your needs.
+      </p>
+      <a href="#services" class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-full shadow-lg transition-transform transform hover:scale-105 inline-block">
+        Learn More
+      </a>
+    </div>
+
+    <!-- Image -->
+    <div class="lg:w-1/2 mt-8 lg:mt-0">
+      <img src="https://www.avanse.com/blogs/images/blog-28.jpg" alt="About Us" class="rounded-lg shadow-lg w-full max-w-lg mx-auto lg:mx-0">
+    </div>
+  </div>
+</section>
+
+  <!-- Services Overview -->
+<section id="services" class="py-16 bg-gray-50">
+  <div class="container mx-auto px-6 text-center">
+    <h2 class="text-4xl font-extrabold text-gray-800 mb-12">Our <span class="text-blue-500">Services</span></h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+      <!-- Service Card -->
+      <div class="p-8 bg-white shadow-lg rounded-lg transition-transform transform hover:scale-105">
+        <img src="https://mir-s3-cdn-cf.behance.net/projects/404/48a8e8171460563.Y3JvcCwyMDQ4LDE2MDEsMCwyMjM.jpg" alt="Student Visa" class="h-16 mx-auto mb-6">
+        <h3 class="text-xl font-semibold text-gray-800 mb-4">Student Visa Assistance</h3>
+        <p class="text-gray-600 mb-6">We simplify the process of obtaining your student visa with expert advice and support.</p>
+        <a href="#" class="text-blue-500 font-medium hover:text-blue-600">Learn More &rarr;</a>
+      </div>
+      <!-- Service Card -->
+      <div class="p-8 bg-white shadow-lg rounded-lg transition-transform transform hover:scale-105">
+        <img src="https://cdn-icons-png.flaticon.com/512/9655/9655518.png" alt="Immigration" class="h-16 mx-auto mb-6">
+        <h3 class="text-xl font-semibold text-gray-800 mb-4">Immigration Services</h3>
+        <p class="text-gray-600 mb-6">Comprehensive immigration solutions to help you settle abroad with ease.</p>
+        <a href="#" class="text-blue-500 font-medium hover:text-blue-600">Learn More &rarr;</a>
+      </div>
+      <!-- Service Card -->
+      <div class="p-8 bg-white shadow-lg rounded-lg transition-transform transform hover:scale-105">
+        <img src="https://cdn-icons-png.flaticon.com/512/6553/6553563.png" alt="Language Training" class="h-16 mx-auto mb-6">
+        <h3 class="text-xl font-semibold text-gray-800 mb-4">Language Training</h3>
+        <p class="text-gray-600 mb-6">Master the required languages with our expert-led training programs.</p>
+        <a href="#" class="text-blue-500 font-medium hover:text-blue-600">Learn More &rarr;</a>
+      </div>
+      <!-- Service Card -->
+      <div class="p-8 bg-white shadow-lg rounded-lg transition-transform transform hover:scale-105">
+        <img src="https://enrichmycareer.com/wp-content/uploads/2021/10/copy.jpg" alt="Career Counseling" class="h-16 mx-auto mb-6">
+        <h3 class="text-xl font-semibold text-gray-800 mb-4">Career Counseling</h3>
+        <p class="text-gray-600 mb-6">Get personalized advice to make informed career choices abroad.</p>
+        <a href="#" class="text-blue-500 font-medium hover:text-blue-600">Learn More &rarr;</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Why Choose Us? -->
+<section class="py-16 bg-gray-50">
+  <div class="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center px-6 md:px-12">
+    <!-- Content Section -->
+    <div>
+      <h2 class="text-4xl font-extrabold text-gray-800 mb-6">
+        Why <span class="text-blue-500">Choose Us?</span>
+      </h2>
+      <p class="text-lg text-gray-600 mb-8">
+        We stand out as your trusted partner for overseas education and immigration solutions. Here’s what makes us unique:
+      </p>
+      <ul class="space-y-6">
+        <li class="flex items-center">
+          <span class="bg-blue-500 text-white rounded-full p-3 mr-4">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path>
+            </svg>
+          </span>
+          <span class="text-gray-700 font-medium">Experienced Consultants</span>
+        </li>
+        <li class="flex items-center">
+          <span class="bg-blue-500 text-white rounded-full p-3 mr-4">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path>
+            </svg>
+          </span>
+          <span class="text-gray-700 font-medium">High Visa Success Rate</span>
+        </li>
+        <li class="flex items-center">
+          <span class="bg-blue-500 text-white rounded-full p-3 mr-4">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path>
+            </svg>
+          </span>
+          <span class="text-gray-700 font-medium">Partnerships with Top Universities</span>
+        </li>
+        <li class="flex items-center">
+          <span class="bg-blue-500 text-white rounded-full p-3 mr-4">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path>
+            </svg>
+          </span>
+          <span class="text-gray-700 font-medium">Personalized Guidance</span>
+        </li>
+        <li class="flex items-center">
+          <span class="bg-blue-500 text-white rounded-full p-3 mr-4">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path>
+            </svg>
+          </span>
+          <span class="text-gray-700 font-medium">Affordable and Transparent Pricing</span>
+        </li>
+        <li class="flex items-center">
+          <span class="bg-blue-500 text-white rounded-full p-3 mr-4">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"></path>
+            </svg>
+          </span>
+          <span class="text-gray-700 font-medium">Comprehensive Post-Landing Services</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Image Section -->
+    <div>
+      <img src="https://img.freepik.com/premium-photo/candid-financial-consultation-engaging-interaction-client-consultant-discussing-savings_980716-728130.jpg" alt="Consultant Interaction" class="rounded-lg shadow-lg w-full">
+    </div>
+  </div>
+</section>
+
+
+  <!-- Featured Destinations -->
+  <section id="destinations" class="py-16 bg-gray-50">
+    <div class="container mx-auto px-6 text-center">
+      <h2 class="text-4xl font-extrabold text-gray-800 mb-12">
+        Featured <span class="text-blue-500">Destinations</span>
+      </h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+        <!-- Destination Card -->
+        <div class="relative group p-6 bg-white shadow-lg rounded-lg transition-transform transform hover:scale-105">
+          <img src="https://www.avanse.com/blogs/images/Blog_15_june_2023.jpg" alt="USA" class="h-48 w-full object-cover rounded-t-lg mb-4">
+          <h3 class="text-xl font-semibold text-gray-800 mb-2 group-hover:text-blue-500">USA</h3>
+          <p class="text-gray-600">
+            Top universities and diverse opportunities await in the United States.
+          </p>
+        </div>
+        <!-- Destination Card -->
+        <div class="relative group p-6 bg-white shadow-lg rounded-lg transition-transform transform hover:scale-105">
+          <img src="https://finerva.com/wp-content/smush-webp/2022/01/Why-uk-is-a-great-place-to-set-up-high-growth-business.png.webp" alt="UK" class="h-48 w-full object-cover rounded-t-lg mb-4">
+          <h3 class="text-xl font-semibold text-gray-800 mb-2 group-hover:text-blue-500">UK</h3>
+          <p class="text-gray-600">
+            Explore the rich culture and world-class education system in the UK.
+          </p>
+        </div>
+        <!-- Destination Card -->
+        <div class="relative group p-6 bg-white shadow-lg rounded-lg transition-transform transform hover:scale-105">
+          <img src="https://theimmigrationoffice.com/wp-content/uploads/2015/08/Canadian-cities.jpg.webp" alt="Canada" class="h-48 w-full object-cover rounded-t-lg mb-4">
+          <h3 class="text-xl font-semibold text-gray-800 mb-2 group-hover:text-blue-500">Canada</h3>
+          <p class="text-gray-600">
+            Known for its welcoming environment and top-notch education.
+          </p>
+        </div>
+        <!-- Destination Card -->
+        <div class="relative group p-6 bg-white shadow-lg rounded-lg transition-transform transform hover:scale-105">
+          <img src="https://www.avanse.com/blogs/images/blogs-migration-62.jpg" alt="Australia" class="h-48 w-full object-cover rounded-t-lg mb-4">
+          <h3 class="text-xl font-semibold text-gray-800 mb-2 group-hover:text-blue-500">Australia</h3>
+          <p class="text-gray-600">
+            Study and work in one of the most beautiful countries in the world.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="py-16 bg-gray-50">
+    <div class="container mx-auto px-6 text-center">
+      <h2 class="text-4xl font-extrabold text-gray-800 mb-12">
+        What Our <span class="text-blue-500">Clients Say</span>
+      </h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+        <!-- Testimonial Card -->
+        <div class="p-8 bg-white shadow-lg rounded-lg transition-transform transform hover:scale-105">
+          <img src="https://cdn2.iconfinder.com/data/icons/man-3d-character-package/512/man_character_04.png" alt="Client 1" class="h-16 w-16 rounded-full mx-auto mb-6">
+          <p class="text-gray-600 italic mb-4">
+            "Thanks to XYZ Consultancy, I got my visa for Canada within 2 months!"
+          </p>
+          <p class="text-lg font-semibold text-gray-800">- John Doe</p>
+        </div>
+        <!-- Testimonial Card -->
+        <div class="p-8 bg-white shadow-lg rounded-lg transition-transform transform hover:scale-105">
+          <img src="https://easy-peasy.ai/cdn-cgi/image/quality=80,format=auto,width=700/https://fdczvxmwwjwpwbeeqcth.supabase.co/storage/v1/object/public/images/f5b9613e-7853-4170-84fd-2015606585bf/9d3e2b98-8524-4fcb-bf17-74fa6fb78274.png" alt="Client 2" class="h-16 w-16 rounded-full mx-auto mb-6">
+          <p class="text-gray-600 italic mb-4">
+            "The guidance and support were exceptional. Highly recommend!"
+          </p>
+          <p class="text-lg font-semibold text-gray-800">- Jane Smith</p>
+        </div>
+        <!-- Testimonial Card -->
+        <div class="p-8 bg-white shadow-lg rounded-lg transition-transform transform hover:scale-105">
+          <img src="https://ai.flux-image.com/flux/3294fb66-47e2-47ac-baed-bf61403bf21f.jpg" alt="Client 3" class="h-16 w-16 rounded-full mx-auto mb-6">
+          <p class="text-gray-600 italic mb-4">
+            "Their expertise made my journey to Australia so smooth and stress-free."
+          </p>
+          <p class="text-lg font-semibold text-gray-800">- Alex Johnson</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Contact Us -->
+  <!-- Contact Us -->
+  <section id="contact" class="py-16 bg-gray-50">
+    <div class="container mx-auto px-6 text-center">
+      <h2 class="text-4xl font-extrabold text-gray-800 mb-8">Get in <span class="text-blue-500">Touch</span></h2>
+      <p class="text-lg text-gray-600 mb-10">Have questions or need assistance? Feel free to reach out, and we’ll get back to you shortly.</p>
+      <form id="contactForm" class="max-w-3xl mx-auto bg-white shadow-lg rounded-lg p-8 space-y-6">
+        <div>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your Name"
+            class="w-full p-4 border border-gray-300 rounded-lg"
+            required
+          />
+        </div>
+        <div>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Your Email"
+            class="w-full p-4 border border-gray-300 rounded-lg"
+            required
+          />
+        </div>
+        <div>
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            placeholder="Your Message"
+            class="w-full p-4 border border-gray-300 rounded-lg"
+            required
+          ></textarea>
+        </div>
+        <button
+          type="button"
+          id="submitButton"
+          class="w-full bg-blue-500 text-white font-semibold text-lg px-6 py-3 rounded-lg shadow-lg hover:bg-blue-600"
+        >
+          Submit
+        </button>
+      </form>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <!-- Footer -->
+<footer class="bg-gray-900 text-white py-12">
+  <div class="container mx-auto px-6">
+    <!-- Footer Top: Links and Logo -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left mb-8">
+      <!-- About Section -->
+      <div>
+        <h3 class="text-lg font-semibold mb-4">Overseas Consultancy</h3>
+        <p class="text-gray-400">
+          Helping you achieve your dreams of studying and working abroad with seamless guidance and expert support.
+        </p>
+      </div>
+      <!-- Quick Links -->
+      <div>
+        <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+        <ul class="space-y-2">
+          <li><a href="#" class="hover:text-blue-400">Privacy Policy</a></li>
+          <li><a href="#" class="hover:text-blue-400">Terms of Service</a></li>
+          <li><a href="#" class="hover:text-blue-400">Contact Us</a></li>
+        </ul>
+      </div>
+      <!-- Social Media Links -->
+      <div>
+        <h3 class="text-lg font-semibold mb-4">Follow Us</h3>
+        <div class="flex justify-center md:justify-start space-x-4">
+          <a href="#" class="hover:text-blue-400">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M22.46 6c-.77.35-1.6.58-2.46.69.89-.53 1.57-1.37 1.89-2.37-.83.49-1.74.84-2.71 1.03A4.92 4.92 0 0016 4c-2.72 0-4.93 2.21-4.93 4.93 0 .39.04.76.12 1.12C7.69 9.85 5.07 8.13 3.5 5.64c-.43.74-.67 1.61-.67 2.53 0 1.75.89 3.29 2.24 4.18-.83-.03-1.61-.26-2.29-.65v.07c0 2.45 1.74 4.49 4.04 4.96-.43.12-.87.18-1.33.18-.33 0-.65-.03-.97-.1.65 2.03 2.55 3.5 4.8 3.54A9.87 9.87 0 012 19.54 13.9 13.9 0 007.29 21c8.3 0 12.84-6.88 12.84-12.84v-.59c.88-.63 1.64-1.42 2.25-2.32z" />
+            </svg>
+          </a>
+          <a href="#" class="hover:text-blue-400">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M19.25 3H4.75C3.78 3 3 3.78 3 4.75v14.5C3 20.22 3.78 21 4.75 21h14.5c.97 0 1.75-.78 1.75-1.75V4.75C21 3.78 20.22 3 19.25 3zm-5.25 15h-4v-4h4v4zm1-5h-6V9h6v4zm1-5H6v-.5C6 6.67 6.67 6 7.5 6h9c.83 0 1.5.67 1.5 1.5V8z" />
+            </svg>
+          </a>
+          <a href="#" class="hover:text-blue-400">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm1 16h-2v-6H8V9h3V7c0-1.085.884-2 2-2h2v3h-2c-.553 0-1 .417-1 1v2h3l-.5 3h-2v6z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- Footer Bottom -->
+    <div class="border-t border-gray-700 pt-6 mt-8 text-gray-400 text-center">
+      <p>&copy; 2024 Overseas Consultancy. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/flowbite@1.6.5/dist/flowbite.min.js"></script>
+  <script>
+    // Toggle mobile menu visibility
+    const menuToggle = document.getElementById('menu-toggle');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuToggle.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+  <script>
+    document.getElementById("submitButton").addEventListener("click", function () {
+      const name = document.getElementById("name").value;
+      const email = document.getElementById("email").value;
+      const message = document.getElementById("message").value;
+  
+      // Validate fields
+      if (!name || !email || !message) {
+        alert("Please fill out all fields before submitting.");
+        return;
+      }
+  
+      // Construct mailto link
+      const mailtoLink = `mailto:ayeen0410@gmail.com?subject=Contact Us Form Submission from ${encodeURIComponent(name)}&body=${encodeURIComponent(
+        `Name: ${name}\nEmail: ${email}\nMessage: ${message}`
+      )}`;
+  
+      // Open the mail client
+      window.location.href = mailtoLink;
+    });
+  </script
+  <script defer type="text/javascript" src="/main.js"></script>
+
+</body>
+</html>
+
